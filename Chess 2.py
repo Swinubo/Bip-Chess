@@ -131,208 +131,207 @@ def Board():
     pygame.display.flip()
 
 def AllPieces():
-    PawnA2(PawnA2x)
-    PawnB2(PawnB2x)
-    PawnC2(PawnC2x)
-    PawnD2(PawnD2x)
-    PawnE2(PawnE2x)
-    PawnF2(PawnF2x)
-    PawnG2(PawnG2x)
-    PawnH2(PawnH2x)
-    Pawn1A7(Pawn1A7x)
-    Pawn1B7(Pawn1B7x)
-    Pawn1C7(Pawn1C7x)
-    Pawn1D7(Pawn1D7x)
-    Pawn1E7(Pawn1E7x)
-    Pawn1F7(Pawn1F7x)
-    Pawn1G7(Pawn1G7x)
-    Pawn1H7(Pawn1H7x)
-    KnightB1(KnightB1x)
-    KnightG1(KnightG1x)
-    Knight1B8(Knight1B8x)
-    Knight1G8(Knight1G8x)
-    BishopC1(BishopC1x)
-    BishopF1(BishopF1x)
-    Bishop1C8(Bishop1C8x)
-    Bishop1F8(Bishop1F8x)
-    RookA1(RookA1x)
-    RookH1(RookH1x)
-    Rook1A8(Rook1A8x)
-    Rook1H8(Rook1H8x)
-    King(Kingx)
-    King1(King1x)
-    Queen(Queenx)
-    Queen1(Queen1x)
+    PawnA2(PawnA2x, PawnA2y)
+    PawnB2(PawnB2x, PawnB2y)
+    PawnC2(PawnC2x, PawnC2y)
+    PawnD2(PawnD2x, PawnD2y)
+    PawnE2(PawnE2x, PawnE2y)
+    PawnF2(PawnF2x, PawnF2y)
+    PawnG2(PawnG2x, PawnG2y)
+    PawnH2(PawnH2x, PawnH2y)
+    Pawn1A7(Pawn1A7x, Pawn1A7y)
+    Pawn1B7(Pawn1B7x, Pawn1B7y)
+    Pawn1C7(Pawn1C7x, Pawn1C7y)
+    Pawn1D7(Pawn1D7x, Pawn1D7y)
+    Pawn1E7(Pawn1E7x, Pawn1E7y)
+    Pawn1F7(Pawn1F7x, Pawn1F7y)
+    Pawn1G7(Pawn1G7x, Pawn1G7y)
+    Pawn1H7(Pawn1H7x, Pawn1H7y)
+    KnightB1(KnightB1x, KnightB1y)
+    KnightG1(KnightG1x, KnightG1y)
+    Knight1B8(Knight1B8x, Knight1B8y)
+    Knight1G8(Knight1G8x, Knight1G8y)
+    BishopC1(BishopC1x, BishopC1y)
+    BishopF1(BishopF1x, BishopF1y)
+    Bishop1C8(Bishop1C8x, Bishop1C8y)
+    Bishop1F8(Bishop1F8x, Bishop1F8y)
+    RookA1(RookA1x, RookA1y)
+    RookH1(RookH1x, RookH1y)
+    Rook1A8(Rook1A8x, Rook1A8y)
+    Rook1H8(Rook1H8x, Rook1H8y)
+    King(Kingx, Kingy)
+    King1(King1x, King1y)
+    Queen(Queenx, Queeny)
+    Queen1(Queen1x, Queen1y)
 
-def PawnA2(PawnA2x):
-    scrn.blit(PawnDispl, (PawnA2x, 650))
+def PawnA2(PawnA2x, PawnA2y):
+    scrn.blit(PawnDispl, (PawnA2x, PawnA2y))
     pygame.display.flip()
 
-def PawnB2(PawnB2x):
-    scrn.blit(PawnDispl, (PawnB2x, 650))
+def PawnB2(PawnB2x, PawnB2y):
+    scrn.blit(PawnDispl, (PawnB2x, PawnB2y))
     pygame.display.flip()
 
-def PawnC2(PawnC2x):
-    scrn.blit(PawnDispl, (PawnC2x, 650))
+def PawnC2(PawnC2x, PawnC2y):
+    scrn.blit(PawnDispl, (PawnC2x, PawnC2y))
     pygame.display.flip()
 
-def PawnD2(PawnD2x):
-    scrn.blit(PawnDispl, (PawnD2x, 650))
+def PawnD2(PawnD2x, PawnD2y):
+    scrn.blit(PawnDispl, (PawnD2x, PawnD2y))
     pygame.display.flip()
 
-def PawnE2(PawnE2x):
-    scrn.blit(PawnDispl, (PawnE2x, 650))
+def PawnE2(PawnE2x, PawnE2y):
+    scrn.blit(PawnDispl, (PawnE2x, PawnE2y))
     pygame.display.flip()
 
-def PawnF2(PawnF2x):
-    scrn.blit(PawnDispl, (PawnF2x, 650))
+def PawnF2(PawnF2x, PawnF2y):
+    scrn.blit(PawnDispl, (PawnF2x, PawnF2y))
     pygame.display.flip()
 
-def PawnG2(PawnG2x):
-    scrn.blit(PawnDispl, (PawnG2x, 650))
+def PawnG2(PawnG2x, PawnG2y):
+    scrn.blit(PawnDispl, (PawnG2x, PawnG2y))
     pygame.display.flip()
 
-def PawnH2(PawnH2x):
-    scrn.blit(PawnDispl, (PawnH2x, 650))
+def PawnH2(PawnH2x, PawnH2y):
+    scrn.blit(PawnDispl, (PawnH2x, PawnH2y))
     pygame.display.flip()
 
-def Pawn1A7(Pawn1A7x):
-    scrn.blit(Pawn1Displ, (Pawn1A7x, 150))
+def Pawn1A7(Pawn1A7x, Pawn1A7y):
+    scrn.blit(Pawn1Displ, (Pawn1A7x, Pawn1A7y))
     pygame.display.flip()
 
-def Pawn1B7(Pawn1B7x):
-    scrn.blit(Pawn1Displ, (Pawn1B7x, 150))
+def Pawn1B7(Pawn1B7x, Pawn1B7y):
+    scrn.blit(Pawn1Displ, (Pawn1B7x, Pawn1B7y))
     pygame.display.flip()
 
-def Pawn1C7(Pawn1C7x):
-    scrn.blit(Pawn1Displ, (Pawn1C7x, 150))
+def Pawn1C7(Pawn1C7x, Pawn1C7y):
+    scrn.blit(Pawn1Displ, (Pawn1C7x, Pawn1C7y))
     pygame.display.flip()
 
-def Pawn1D7(Pawn1D7x):
-    scrn.blit(Pawn1Displ, (Pawn1D7x, 150))
+def Pawn1D7(Pawn1D7x, Pawn1D7y):
+    scrn.blit(Pawn1Displ, (Pawn1D7x, Pawn1D7y))
     pygame.display.flip()
 
-def Pawn1E7(Pawn1E7x):
-    scrn.blit(Pawn1Displ, (Pawn1E7x, 150))
+def Pawn1E7(Pawn1E7x, Pawn1E7y):
+    scrn.blit(Pawn1Displ, (Pawn1E7x, Pawn1E7y))
     pygame.display.flip()
 
-def Pawn1F7(Pawn1F7x):
-    scrn.blit(Pawn1Displ, (Pawn1F7x, 150))
+def Pawn1F7(Pawn1F7x, Pawn1F7y):
+    scrn.blit(Pawn1Displ, (Pawn1F7x, Pawn1F7y))
     pygame.display.flip()
 
-def Pawn1G7(Pawn1G7x):
-    scrn.blit(Pawn1Displ, (Pawn1G7x, 150))
+def Pawn1G7(Pawn1G7x, Pawn1G7y):
+    scrn.blit(Pawn1Displ, (Pawn1G7x, Pawn1G7y))
     pygame.display.flip()
 
-def Pawn1H7(Pawn1H7x):
-    scrn.blit(Pawn1Displ, (Pawn1H7x, 150))
+def Pawn1H7(Pawn1H7x, Pawn1H7y):
+    scrn.blit(Pawn1Displ, (Pawn1H7x, Pawn1H7y))
     pygame.display.flip()
 
-def KnightB1(KnightB1x):
-    scrn.blit(KnightDispl, (KnightB1x, 750))
+def KnightB1(KnightB1x, KnightB1y):
+    scrn.blit(KnightDispl, (KnightB1x, KnightB1y))
     pygame.display.flip()
 
-def KnightG1(KnightG1x):
-    scrn.blit(KnightDispl, (KnightG1x, 750))
+def KnightG1(KnightG1x, KnightG1y):
+    scrn.blit(KnightDispl, (KnightG1x, KnightG1y))
     pygame.display.flip()
 
-def Knight1B8(Knight1B8x):
-    scrn.blit(Knight1Displ, (Knight1B8x, 50))
+def Knight1B8(Knight1B8x, Knight1B8y):
+    scrn.blit(Knight1Displ, (Knight1B8x, Knight1B8y))
     pygame.display.flip()
 
-def Knight1G8(Knight1G8x):
-    scrn.blit(Knight1Displ, (Knight1G8x, 50))
+def Knight1G8(Knight1G8x, Knight1G8y):
+    scrn.blit(Knight1Displ, (Knight1G8x, Knight1G8y))
     pygame.display.flip()
 
-def BishopC1(BishopC1x):
-    scrn.blit(BishopDispl, (BishopC1x, 750))
+def BishopC1(BishopC1x, BishopC1y):
+    scrn.blit(BishopDispl, (BishopC1x, BishopC1y))
     pygame.display.flip()
 
-def BishopF1(BishopF1x):
-    scrn.blit(BishopDispl, (BishopF1x, 750))
+def BishopF1(BishopF1x, BishopF1y):
+    scrn.blit(BishopDispl, (BishopF1x, BishopF1y))
     pygame.display.flip()
 
-def Bishop1C8(Bishop1C8x):
-    scrn.blit(Bishop1Displ, (Bishop1C8x, 50))
+def Bishop1C8(Bishop1C8x, Bishop1C8y):
+    scrn.blit(Bishop1Displ, (Bishop1C8x, Bishop1C8y))
     pygame.display.flip()
 
-def Bishop1F8(Bishop1F8x):
-    scrn.blit(Bishop1Displ, (Bishop1F8x, 50))
+def Bishop1F8(Bishop1F8x, Bishop1F8y):
+    scrn.blit(Bishop1Displ, (Bishop1F8x, Bishop1F8y))
     pygame.display.flip()
 
-def RookA1(RookA1x):
-    scrn.blit(RookDispl, (RookA1x, 750))
+def RookA1(RookA1x, RookA1y):
+    scrn.blit(RookDispl, (RookA1x, RookA1y))
     pygame.display.flip()
 
-def RookH1(RookH1x):
-    scrn.blit(RookDispl, (RookH1x, 750))
+def RookH1(RookH1x, RookH1y):
+    scrn.blit(RookDispl, (RookH1x, RookH1y))
     pygame.display.flip()
 
-def Rook1A8(Rook1H8x):
-    scrn.blit(Rook1Displ, (Rook1H8x, 50))
+def Rook1A8(Rook1A8x, Rook1A8y):
+    scrn.blit(Rook1Displ, (Rook1A8x, Rook1A8y))
     pygame.display.flip()
 
-def Rook1H8(Rook1H8x):
-    scrn.blit(Rook1Displ, (Rook1H8x, 50))
+def Rook1H8(Rook1H8x, Rook1H8y):
+    scrn.blit(Rook1Displ, (Rook1H8x, Rook1H8y))
     pygame.display.flip()
 
-def King(Kingx):
-    scrn.blit(KingDispl, (Kingx, 750))
+def King(Kingx, Kingy):
+    scrn.blit(KingDispl, (Kingx, Kingy))
     pygame.display.flip()
 
-def King1(King1x):
-    scrn.blit(King1Displ, (King1x, 50))
+def King1(King1x, King1y):
+    scrn.blit(King1Displ, (King1x, King1y))
     pygame.display.flip()
 
-def Queen(Queenx):
-    scrn.blit(QueenDispl, (Queenx, 750))
+def Queen(Queenx, Queeny):
+    scrn.blit(QueenDispl, (Queenx, Queeny))
     pygame.display.flip()    
 
-def Queen1(Queen1x):
-    scrn.blit(Queen1Displ, (Queen1x, 50))
-    pygame.display.flip()   
+def Queen1(Queen1x, Queen1y):
+    scrn.blit(Queen1Displ, (Queen1x, Queen1y))
+    pygame.display.flip()
 
 done = False
 clock = pygame.time.Clock()
 
-PawnA2x = 490
-PawnB2x = 590
-PawnC2x = 690
-PawnD2x = 790
-PawnE2x = 890
-PawnF2x = 990
-PawnG2x = 1090
-PawnH2x = 1190
-Pawn1A7x = 490
-Pawn1B7x = 590
-Pawn1C7x = 690
-Pawn1D7x = 790
-Pawn1E7x = 890
-Pawn1F7x = 990
-Pawn1G7x = 1090
-Pawn1H7x = 1190
+PawnA2x, PawnA2y = 490, 650
+PawnB2x, PawnB2y = 590, 650
+PawnC2x, PawnC2y = 690, 650
+PawnD2x, PawnD2y = 790, 650
+PawnE2x, PawnE2y = 890, 650
+PawnF2x, PawnF2y = 990, 650
+PawnG2x, PawnG2y = 1090, 650
+PawnH2x, PawnH2y = 1190, 650
+Pawn1A7x, Pawn1A7y = 490, 150
+Pawn1B7x, Pawn1B7y = 590, 150
+Pawn1C7x, Pawn1C7y = 690, 150
+Pawn1D7x, Pawn1D7y = 790, 150
+Pawn1E7x, Pawn1E7y = 890, 150
+Pawn1F7x, Pawn1F7y = 990, 150
+Pawn1G7x, Pawn1G7y = 1090, 150
+Pawn1H7x, Pawn1H7y = 1190, 150
 
-KnightB1x = 590
-KnightG1x = 1090
-Knight1B8x = 590
-Knight1G8x = 1090
+KnightB1x, KnightB1y = 590, 750
+KnightG1x, KnightG1y = 1090, 750
+Knight1B8x, Knight1B8y = 590, 50
+Knight1G8x, Knight1G8y = 1090, 50
 
-BishopC1x = 690
-BishopF1x = 990
-Bishop1C8x = 690
-Bishop1F8x = 990
+BishopC1x, BishopC1y = 690, 750
+BishopF1x, BishopF1y = 990, 750
+Bishop1C8x, Bishop1C8y = 690, 50
+Bishop1F8x, Bishop1F8y = 990, 50
 
-RookA1x = 490
-RookH1x = 1190
-Rook1A8x = 490
-Rook1H8x = 1190
+RookA1x, RookA1y = 490, 750
+RookH1x, RookH1y = 1190, 750
+Rook1A8x, Rook1A8y = 490, 50
+Rook1H8x, Rook1H8y = 1190, 50
 
-Kingx = 890
-King1x = 890
+Kingx, Kingy = 890, 750
+King1x, King1y = 890, 50
 
-Queenx = 790
-Queen1x = 790
-
+Queenx, Queeny = 790, 750
+Queen1x, Queen1y = 790, 50
 
 screen.fill(GREEN)
 Board()
@@ -344,17 +343,49 @@ while not done:
             done = True
         if event.type == pygame.MOUSEBUTTONDOWN:
             x, y = event.pos
-            print(x, y)
-            if ((x < 575) and (x > 475) and (y < 750) and (y > 650)):
+            if ((x < PawnA2x + 100) and (x > PawnA2x) and (y < PawnA2y + 100) and (y > PawnA2y)):
                 PieceDropped = False
                 while PieceDropped == False:
                     for move in pygame.event.get():
                         if move.type == pygame.MOUSEBUTTONUP:
                             x, y = move.pos
-                            print(x)
-                            PawnA2(x)
+                            screen.fill(GREEN)
+                            Board()
+                            PawnB2(PawnB2x, PawnB2y)
+                            PawnC2(PawnC2x, PawnC2y)
+                            PawnD2(PawnD2x, PawnD2y)
+                            PawnE2(PawnE2x, PawnE2y)
+                            PawnF2(PawnF2x, PawnF2y)
+                            PawnG2(PawnG2x, PawnG2y)
+                            PawnH2(PawnH2x, PawnH2y)
+                            Pawn1A7(Pawn1A7x, Pawn1A7y)
+                            Pawn1B7(Pawn1B7x, Pawn1B7y)
+                            Pawn1C7(Pawn1C7x, Pawn1C7y)
+                            Pawn1D7(Pawn1D7x, Pawn1D7y)
+                            Pawn1E7(Pawn1E7x, Pawn1E7y)
+                            Pawn1F7(Pawn1F7x, Pawn1F7y)
+                            Pawn1G7(Pawn1G7x, Pawn1G7y)
+                            Pawn1H7(Pawn1H7x, Pawn1H7y)
+                            KnightB1(KnightB1x, KnightB1y)
+                            KnightG1(KnightG1x, KnightG1y)
+                            Knight1B8(Knight1B8x, Knight1B8y)
+                            Knight1G8(Knight1G8x, Knight1G8y)
+                            BishopC1(BishopC1x, BishopC1y)
+                            BishopF1(BishopF1x, BishopF1y)
+                            Bishop1C8(Bishop1C8x, Bishop1C8y)
+                            Bishop1F8(Bishop1F8x, Bishop1F8y)
+                            RookA1(RookA1x, RookA1y)
+                            RookH1(RookH1x, RookH1y)
+                            Rook1A8(Rook1A8x, Rook1A8y)
+                            Rook1H8(Rook1H8x, Rook1H8y)
+                            King(Kingx, Kingy)
+                            King1(King1x, King1y)
+                            Queen(Queenx, Queeny)
+                            Queen1(Queen1x, Queen1y)
+                            PawnA2(x, y)
+                            PawnA2x, PawnA2y = x, y
                             PieceDropped = True
-    clock.tick(10)
+    clock.tick(60)
    
 pygame.quit()
 quit()
